@@ -1,0 +1,87 @@
+body {
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/back_pic/03/80/06/3757c30a762387b.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+    margin: 50px;
+}
+
+.button:hover {
+    background-color: powderblue;
+}
+
+/* sep_css.css */
+
+.fieldset input[type="text"],
+.fieldset input[type="email"],
+.fieldset input[type="tel"],
+.fieldset input[type="date"],
+.fieldset input[type="time"] {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.button {
+    background-color: #FF8700;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+h3 {
+    background-color: #9b2a0800;
+    color: rgb(208, 214, 210);
+}
+
+legend {
+    background-color: rgba(176, 202, 57, 0.973);
+    padding: 5px 30px;
+}
+
+label {
+    color: white;
+}
+
+fieldset {
+    width: 600px;
+}
+
+@media (max-width: 768px) {
+    .fieldset {
+        width: 90%;
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 480px) {
+    .fieldset {
+        width: 90%;
+        max-width: 300px;
+    }
+}
+
+/* Additional styles for smaller screens */
+@media (max-width: 320px) {
+    .fieldset {
+        width: 90%;
+        max-width: 250px;
+    }
+}
+
+/* Default styles */
+@media (max-width: 280px) and (max-height: 653px) {
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+    }
+}
